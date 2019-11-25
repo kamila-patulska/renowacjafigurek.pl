@@ -1,0 +1,1 @@
+# renowacjafigurek.pl
