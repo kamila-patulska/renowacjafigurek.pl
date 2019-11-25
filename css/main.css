@@ -1,0 +1,224 @@
+body  {
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    color: rgb(46, 44, 44);
+    line-height: 1.8;
+    height: 100%;
+}
+
+#menu  {
+    background-color:  rgb(247, 246, 236);
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+    transition: 0.3s;
+    height: 60px;
+    z-index: 1;
+    letter-spacing: 5px;
+   
+}
+@media screen and (max-height: 300px)  {
+#navbar-right a{
+  float: left;
+     }
+}
+#menu a {
+    border-radius: 20px;
+    color: rgb(46, 44, 44);
+    text-decoration: none;
+    padding: 8px;
+    font-weight: bold;  
+    line-height: 35px;
+}
+#menu #fontlogo  {
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+#menu a:hover  {
+    background-color: rgb(207, 207, 207);
+    transition: 0.5s;
+    
+}
+#main-image  {
+    background: url(../picture/oil.jpg) no-repeat fixed center;
+    height: 400px;
+    width: 100%;
+    background-size: cover; 
+    filter: grayscale(20%);
+  
+    
+    
+
+}
+.text  {
+    text-align: center;
+    color:  rgb(247, 241, 241);
+    position: absolute;
+    top: 50%;
+    left:40%;
+}
+.introduction {
+    margin: 10px; 
+    margin-top: 150px;  
+    text-justify: inter-word;
+    text-align: center;
+    margin-bottom: 200px;
+    padding: 40px;
+}
+
+.img-madonna img  {
+    float: left;
+    margin-top: 150px;
+    height: 300px;
+    z-index: -1;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+#fontlogo  {
+    font-family: 'Euphoria Script', cursive;
+    float: left;
+    color: rgba(36, 31, 54, 0.719);
+    font-size: 30px;
+    
+}
+#navbar-right  {
+    float: right;
+    font-size: 18px;
+    font-family: 'Anaheim', sans-serif;
+    border-left: solid grey 3px;
+    padding: 10px;
+}
+h1  {
+    font-family: 'Anaheim', sans-serif;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.mainoffer, .maingallery {
+    padding: 10px;
+    border-bottom: solid 1px rgb(165, 165, 165);
+}
+ #part-offer {
+
+ }
+ 
+.offertext  {
+    font: 30px white;
+    text-align: center;
+    color:  rgb(85, 82, 82);
+    position: relative;
+    top: 50%;
+    margin:0px;
+    font-family: 'Anaheim', sans-serif;
+}
+.flex-container  {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 20px;
+    font-size: 20px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.figure div  {
+    padding: 5px;
+    text-align: center; 
+    flex-direction: row;
+    display: inline;
+   
+}
+.materials  {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.boxcontact {
+    background:  rgb(247, 246, 236);
+    height: 100px;
+    margin-top: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-bottom: 0.5px solid rgba(80, 107, 109, 0.356);
+}
+.boxcontact h1  {
+    padding-top: 25px;
+}
+
+.gallery  {
+    margin: 200px 15px;
+    margin-top: 15px;
+    margin-bottom: 200px; 
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ 
+}
+.gallery img  {
+    width: auto;
+    height: 300px;
+    margin: 10px;
+    padding: 5px;
+    filter: grayscale(70%);
+    transition: 0.5s;
+    z-index: -1;
+    border: solid 1px rgb(175, 175, 175);
+}
+.gallery img:hover  {
+    filter: grayscale(0);
+    transform: scale(1.05);
+}
+
+.contact-form, .contact-data, .map  {
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 12px;
+    margin-right: 40px;
+ 
+}
+
+#contact-section  {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+form  {
+    transition: all 4s ease-in-out;
+}
+.form-control {
+    width: 250px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 0.5px solid gray;
+    color: rgb(46, 44, 44);
+    margin-bottom: 16px;
+}
+
+input  {
+    height: 45px;
+}
+form .submit {
+    background: rgb(218, 207, 165);
+    border-color: transparent;
+    color: rgb(82, 85, 82);
+    font-size: 15px;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+form .submit:hover  {
+    background-color:  rgb(221, 206, 196);
+    cursor: pointer; 
+}
+
