@@ -47,11 +47,8 @@ body  {
     width: 100%;
     background-size: cover; 
     filter: grayscale(20%);
-  
-    
-    
-
 }
+
 .text  {
     text-align: center;
     color:  rgb(247, 241, 241);
