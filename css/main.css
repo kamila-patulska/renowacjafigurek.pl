@@ -5,7 +5,10 @@ body  {
     color: rgb(46, 44, 44);
     line-height: 1.8;
     height: 100%;
+}
 
+html {
+    scroll-behavior: smooth;
 }
 
 #menu  {
@@ -26,13 +29,18 @@ body  {
 }
 #menu a {
     color: rgb(46, 44, 44);
-    
-    padding: 8px;
     font-weight: bold;  
-    line-height: 35px;
     text-decoration: none;
+    margin-right: 10px;
+    line-height: 37px;
 }
 #menu #fontlogo  {
+    font-family: 'Euphoria Script', cursive;
+    float: left;
+    color: rgba(36, 31, 54, 0.719);
+    font-size: 30px;
+    padding-top: 13px;
+    margin-left: 20px;
     transition: 0.3s;
     font-weight: bold;
     text-decoration: none;
@@ -40,10 +48,8 @@ body  {
 
 #menu a:hover  {
     text-decoration: underline;
-    transition: 0.5s;
-    font-size: 22px;
-    
 }
+
 #paints-image  {
     background: url(../picture/oil.jpg) no-repeat fixed center;
     height: 500px;
@@ -51,42 +57,42 @@ body  {
     filter: grayscale(20%);
 }
 
-.text {
+#about-section {
     text-justify: inter-word;
-    text-align: center;
-    padding: 40px;
-    float: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    overflow: auto;
 }
 
-.madonna-image img  {
+#about-section img  {
     height: 300px;
     margin-top: 20px;
+    float: left;
+    margin-right: 100px;
 }
 
-#fontlogo  {
-    font-family: 'Euphoria Script', cursive;
-    float: left;
-    color: rgba(36, 31, 54, 0.719);
-    font-size: 30px;
-    
+#about-section p {
+    text-align: center;
 }
+
 #navbar-right  {
     float: right;
     font-size: 18px;
     font-family: 'Anaheim', sans-serif;
-    border-left: solid grey 3px;
     padding: 10px;
-}
-h1  {
-    font-family: 'Anaheim', sans-serif;
-    text-align: center;
-    margin-bottom: 0px;
 }
 
- .mainoffer, .maingallery {
+h1 {
+    font-family: 'Anaheim', sans-serif;
+    text-align: center;
+}
+
+#gallery-header h1 {
+    margin-top: 150px;
+}
+
+.offer {
     padding: 10px;
-    border-bottom: solid 1px rgb(165, 165, 165);
-    margin-top: 300px;
 }
 
 .flex-container  {

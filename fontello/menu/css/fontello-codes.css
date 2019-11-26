@@ -1,6 +1,5 @@
 
 .icon-art-gallery:before { content: '\e800'; } /* '' */
 .icon-home:before { content: '\e801'; } /* '' */
-.icon-user:before { content: '\e802'; } /* '' */
-.icon-phone:before { content: '\e803'; } /* '' */
-.icon-mail-alt:before { content: '\f0e0'; } /* '' */
+.icon-mail:before { content: '\e802'; } /* '' */
+.icon-user-female:before { content: '\f063'; } /* '' */
