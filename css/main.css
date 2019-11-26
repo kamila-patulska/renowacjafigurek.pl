@@ -1,10 +1,11 @@
 body  {
-    background-color: white;
+    background: linear-gradient(to bottom, white 90%, #888876fd);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 20px;
     color: rgb(46, 44, 44);
     line-height: 1.8;
     height: 100%;
+
 }
 
 #menu  {
@@ -24,55 +25,42 @@ body  {
      }
 }
 #menu a {
-    border-radius: 20px;
     color: rgb(46, 44, 44);
-    text-decoration: none;
+    
     padding: 8px;
     font-weight: bold;  
     line-height: 35px;
+    text-decoration: none;
 }
-
 #menu #fontlogo  {
     transition: 0.3s;
     font-weight: bold;
+    text-decoration: none;
 }
 
 #menu a:hover  {
-    background-color: rgb(207, 207, 207);
+    text-decoration: underline;
     transition: 0.5s;
+    font-size: 22px;
     
 }
-#main-image  {
+#paints-image  {
     background: url(../picture/oil.jpg) no-repeat fixed center;
-    height: 400px;
-    width: 100%;
+    height: 500px;
     background-size: cover; 
     filter: grayscale(20%);
 }
 
-.text  {
-    text-align: center;
-    color:  rgb(247, 241, 241);
-    position: absolute;
-    top: 50%;
-    left:40%;
-}
-.introduction {
-    margin: 10px; 
-    margin-top: 150px;  
+.text {
     text-justify: inter-word;
     text-align: center;
-    margin-bottom: 200px;
     padding: 40px;
+    float: left;
 }
 
-.img-madonna img  {
-    float: left;
-    margin-top: 150px;
+.madonna-image img  {
     height: 300px;
-    z-index: -1;
-    margin-left: 30px;
-    margin-right: 40px;
+    margin-top: 20px;
 }
 
 #fontlogo  {
@@ -95,23 +83,12 @@ h1  {
     margin-bottom: 0px;
 }
 
-.mainoffer, .maingallery {
+ .mainoffer, .maingallery {
     padding: 10px;
     border-bottom: solid 1px rgb(165, 165, 165);
+    margin-top: 300px;
 }
- #part-offer {
 
- }
- 
-.offertext  {
-    font: 30px white;
-    text-align: center;
-    color:  rgb(85, 82, 82);
-    position: relative;
-    top: 50%;
-    margin:0px;
-    font-family: 'Anaheim', sans-serif;
-}
 .flex-container  {
     display: flex;
     flex-wrap: wrap;
@@ -123,7 +100,7 @@ h1  {
     flex-direction: row;
     justify-content: space-evenly;
 }
-.figure div  {
+.figures div  {
     padding: 5px;
     text-align: center; 
     flex-direction: row;
@@ -137,7 +114,7 @@ h1  {
 }
 
 .boxcontact {
-    background:  rgb(247, 246, 236);
+    background:  rgb(255, 255, 255);
     height: 100px;
     margin-top: 100px;
     background-attachment: fixed;
@@ -206,9 +183,9 @@ input  {
     height: 45px;
 }
 form .submit {
-    background: rgb(218, 207, 165);
+    background: rgb(253, 252, 249);
     border-color: transparent;
-    color: rgb(82, 85, 82);
+    color: rgb(61, 63, 61);
     font-size: 15px;
     letter-spacing: 2px;
     height: 50px;
