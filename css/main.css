@@ -78,9 +78,9 @@ h1 {
     left: 100px;
     bottom: 50px;
     color: #f5eff2fd;
-    font-size: 400%;
-    border-bottom: solid 4px;
-    text-shadow: 3px 3px 4px black;
+    font-size: 300%;
+    border-bottom: solid 2px;
+    text-shadow: 3px 4px 8px black;
 }
 
 /* ----------------------- about -------------------- */
@@ -169,7 +169,7 @@ h1 {
     float: left;
     margin-left: 20px;
     margin-top: 20px;
-    font-size: 12px;
+    font-size: 15px;
     margin-right: 40px;
 }
 
