@@ -1,11 +1,16 @@
 <!DOCTYPE html>
-<html lang="us-en">
+<html lang="pl-PL">
 <head>
     <meta charset="utf-8">
     <meta name="description" content="Renowacja figurek Brzesko">
     <meta name="keywords" content="Brzesko, Renowacja, Figurki">
     <meta name="author" content="Kamila Patulska">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="HKxg5yUeLyzifFO-NSyojNc6uYGEnsgWibWjf1-7MQI" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="classification" content="zabytki" />
+    <meta name="Robots" content="index, follow" />
+    <meta name="revisit-after" content="2 days" />
 
     <title>Renowacja figurek</title>
     
@@ -17,7 +22,19 @@
     <link href="css/menu_fonts.css" rel="stylesheet">
     <link rel="stylesheet"  href="css/lightbox.min.css" type="text/css">
     <script src="js/jquery.min.js"></script>
-    <script src="js/modernizr.js"></script>
+    <script src="js/modernizr.js"></script> 
+    
+    <link rel="stylesheet"  href="mailer/mailer_style.css" type="text/css">
+    <script src="mailer/mailer_app.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154250396-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-154250396-1');
+	</script>
 
     <script src="js/functions.js"></script>
     <script src="js/lightbox-plus-jquery.min.js"></script>
@@ -67,10 +84,7 @@
     <div class="materials-descr">W pracy używam farb akrylowych, olejnych, artystycznych, renowacyjnych.</div>
 </div>
 
-
-
 <h1 id="gallery-header" style="padding-top:100px;">Galeria</h1>   
-
 <div class="gallery">
     <a href="gallery/02-max.jpg" data-lightbox="gallery"><img src="gallery/02-min.jpg"></a> 
     <a href="gallery/01-max.jpg" data-lightbox="gallery"><img src="gallery/01-min.jpg"></a>
@@ -116,16 +130,17 @@
         <p class="icon-home">Adres: 32-800 Brzesko, ul. Okulickiego 25A</p>
     </div>
     <div class="contact-section">
-        <form id="contact-form" method="POST" action="">
-            <input name="name" type="text" class="form-control" placeholder="Imię" required>
+        <form id="contact-form" method="POST" action="http://renowacjafigurek.pl/post.php">
+            <input id="name" name="name" type="text" class="form-control" placeholder="Imię" required>
             <br> 
-            <input name="lastname" type="text" class="form-control" placeholder="Nazwisko" required>
+            <input id="lastname" name="lastname" type="text" class="form-control" placeholder="Nazwisko" required>
             <br>
-            <input name="email" type="email" class="form-control" placeholder="E-mail" required>
+            <input id="email" name="email" type="email" class="form-control" placeholder="E-mail" required>
             <br>
-            <textarea name="message" class="form-control" placeholder="Wiadomość..." required style="height: 175px;"></textarea><br>
+            <textarea id="message" name="message" class="form-control" placeholder="Wiadomość..." required style="height: 175px;"></textarea><br>
             <input type="submit" value="Wyślij" class="form-control submit">
         </form>
+        <div id="form-messages"></div>
     </div>
     <div class="map">
         <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2565.8049919786795!2d20.608591991955436!3d49.97751553369623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716263f69ac6513%3A0xd75810342e645e4e!2sGenera%C5%82a%20Leopolda%20Okulickiego%2025A%2C%2032-800%20Brzesko!5e0!3m2!1spl!2spl!4v1572338576207!5m2!1spl!2spl"
